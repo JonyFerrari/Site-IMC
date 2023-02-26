@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo-IMC</title>
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="shortcut icon" href="imagens/icons8-gym-16.png" type="image/x-icon">
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+    <header class="bg">
+            <h1>Calculador de IMC</h1>
+            <p>Saiba de forma pratica seu Índice de Massa Corpórea!</p>
+    </header>
+    <section  class="mainbg">
+        <main> 
+            <br><br>
+            <article>
+                <h1>Calcule seu IMC</h1>
+                <p>Insira sua altura e peso logo abaixo</p>
+
+                <br>
+
+                <p class="dados">
+                    <label for="input-weight">Peso ( KG ) &nbsp; </label> 
+                    <input id="input-weight" type="number" step="0.1">
+
+                </p>
+
+                <p class="dados">
+                    <label for="input-height" > Altura ( M ) &nbsp;</label> 
+                    <input id="input-height" type="number" step="0.01">
+                </p>
+
+                <p class="botao">
+                    <button id="button-calculate-imc">calcular</button>
+                </p>
+
+                <p class="resultado">
+                    O IMC é de: 
+                    <br>
+                    <strong id="imc-result"></strong>
+
+                    <br><br>
+
+                    <p>
+                        <strong id="imc-data"></strong><p>
+                </p>
+
+                <table>
+
+                    <colgroup>
+                        <col class="peso">
+                        <col class="class">
+                    </colgroup>
+
+                    <caption>Tabela IMC</caption>
+    
+                    <thead>
+
+                        <tr>
+                            <th scope="col">IMC</th>
+                            <th scope="col">Classificações</th>
+                        </tr>
+
+                    </thead>
+    
+                    <tbody>
+
+                        <tr>
+                            <td>Menor do que 18,5</td>
+                            <td>Abaixo do peso normal</td>
+                        </tr>
+
+                        <tr>
+                            <td>18,5 - 24,9</td>
+                            <td> Peso normal</td>
+                        </tr>
+
+                        <tr>
+                            <td>25 - 29,9</td>
+                            <td>Excesso de peso</td>
+                        </tr>
+
+                        <tr>
+                            <td>30 - 34,9</td>
+                            <td>Obesidade classe I</td>
+                        </tr>
+
+                        <tr>
+                            <td>35 - 39,9</td>
+                            <td>Obesidade classe II</td>
+                        </tr>
+
+                        <tr>
+                            <td>Maior ou igual a 40</td>
+                            <td>Obesidade classe III</td>
+                        </tr>
+
+                    </tbody>
+    
+                </table>
+
+                <script src="js/js.js"></script>
+            </article>
+            <br>
+        </main>
+    </section>
+
+    <footer>
+        Criado Por
+        <a href="https://www.instagram.com/sadmanzika/" target="_blank"><p>Jony Ferrari</p></a>
+    </footer>
+</body>
+</html>

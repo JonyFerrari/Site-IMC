@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fontes/Roboto-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Shadow';
+    src: url(../fontes/ShadowsIntoLight-Regular.ttf) format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fede2c;
+    height: 600px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    min-height: 100px;
+    padding-top: 30px;
+}
+
+.bg {
+    width: 100%; 
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top top;
+	background-image: url(../imagens/bg.jpg);
+
+    color: white;
+    text-shadow: 2px 1px 0px black;
+
+}
+
+.bg > h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.bg > p {
+    text-align: center;
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.mainbg {
+    width: 100%;
+    height: auto;
+    background-clip: border-box;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/salada-pq-teste.jpg);
+}
+
+article {
+    min-width: 300px;
+    max-width: 550px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+article h1 {
+    font-size: 3em;
+    padding: 5px;
+}
+
+article p {
+    padding: 5px;
+}
+
+#input-weight {
+
+    width: 150px;
+}
+
+#input-height {
+    width: 150px;
+}
+
+
+button {
+    width: 150px;
+    background-color: #fede2c;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+table {
+    position: relative;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+col.class {
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 1px;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fede2c;
+    font-family: 'Shadown', cursive;
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
